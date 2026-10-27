@@ -49,6 +49,135 @@
   "cost_per_1000_docs_usd": 0.932,
   "tokens_in": 265956,
   "tokens_out": 26675,
+  "grounding": {
+    "values_checked": 1004,
+    "ungrounded": 23,
+    "ungrounded_pct": 2.3,
+    "ungrounded_by_field": {
+      "skills": 17,
+      "work_experiences": 2,
+      "city": 2,
+      "title": 1,
+      "work_location_preference": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "організація процесів"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "оптимізація процесів"
+      },
+      {
+        "doc_id": "f04",
+        "field": "title",
+        "value": "Рaзpaбoтчик программного обеспечения, web-пpoграммиcт"
+      },
+      {
+        "doc_id": "f04",
+        "field": "work_experiences.position",
+        "value": "Разработчик программного обеспечения"
+      },
+      {
+        "doc_id": "f08",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "міжнародний стиль"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "просування"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "інтернет"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "оптимізація"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "ведення кампаній"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "соцмережі"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "блогінг"
+      },
+      {
+        "doc_id": "f26",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f26",
+        "field": "work_experiences.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на оргтехніці"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "комп'ютер"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на виробництві"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота в силових структурах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "участь в соціально-освітніх проектах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "співпраця в некомерційських міжнародних організаціях"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "створення проекту спільного бізнесу"
+      },
+      {
+        "doc_id": "f35",
+        "field": "city",
+        "value": "Грузія"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "negotiation"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4o-mini",
     "model_id": "gpt-4o-mini",

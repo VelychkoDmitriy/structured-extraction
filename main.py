@@ -20,6 +20,7 @@ import yaml
 from dotenv import load_dotenv
 
 from src.extract import build_messages, extract, load_prompt, strict_schema
+from src.grounding import summarize_grounding
 from src.llm import LLMClient
 from src.metrics import FIELDS, summarize
 from src.schema import Resume
@@ -98,11 +99,13 @@ def cmd_eval(cfg, out_dir: Path) -> dict:
     if not records:
         return {}
     metrics = summarize(records, load_golden(cfg))
+    metrics["grounding"] = summarize_grounding(records, {d["doc_id"]: d["text"] for d in load_docs(cfg, "all")})
     first = records[0]
     metrics["run"] = {k: first[k] for k in ("model", "model_id", "prompt_version", "sampling", "temperature", "top_p")}
     (out_dir / "metrics.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"{out_dir.name}: accuracy={metrics['field_accuracy']} valid={metrics['valid_pct']}% "
-          f"failed={metrics['failed']} p50={metrics['latency_p50_s']}s $/1000={metrics['cost_per_1000_docs_usd']}")
+          f"failed={metrics['failed']} ungrounded={metrics['grounding']['ungrounded_pct']}% "
+          f"p50={metrics['latency_p50_s']}s $/1000={metrics['cost_per_1000_docs_usd']}")
     return metrics
 
 
@@ -110,13 +113,15 @@ def cmd_report(cfg) -> None:
     runs = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((ROOT / cfg["results_dir"]).glob("*/metrics.json"))]
     runs.sort(key=lambda m: m["field_accuracy"] or 0, reverse=True)
     lines = ["# Порівняння запусків", "",
-             "Точність — середня по полях на golden set (20 резюме); решта метрик — на всіх документах запуску.", "",
-             "| Модель | Промпт | Семплінг (t / top_p) | Точність | Валідні з 1-ї спроби | Валідні після repair | failed | p50, с | p95, с | $ / 1000 резюме |",
-             "|---|---|---|---|---|---|---|---|---|---|"]
+             "Точність — середня по полях на golden set (20 резюме); решта метрик — на всіх документах запуску.",
+             "Вигадані значення — частка рядків відповіді, яких немає в тексті резюме (src/grounding.py).", "",
+             "| Модель | Промпт | Семплінг (t / top_p) | Точність | Вигадані значення | Валідні з 1-ї спроби | Валідні після repair | failed | p50, с | p95, с | $ / 1000 резюме |",
+             "|---|---|---|---|---|---|---|---|---|---|---|"]
     for m in runs:
-        r = m["run"]
+        r, g = m["run"], m.get("grounding", {})
         lines.append(f"| {r['model_id']} | {r['prompt_version']} | {r['sampling']} ({r['temperature']} / {r['top_p']}) | "
-                     f"{m['field_accuracy']:.3f} | {m['valid_first_pct']}% | {m['valid_pct']}% | {m['failed']} | "
+                     f"{m['field_accuracy']:.3f} | {g.get('ungrounded_pct')}% ({g.get('ungrounded')}/{g.get('values_checked')}) | "
+                     f"{m['valid_first_pct']}% | {m['valid_pct']}% | {m['failed']} | "
                      f"{m['latency_p50_s']} | {m['latency_p95_s']} | {m['cost_per_1000_docs_usd']} |")
     lines += ["", "## Точність по полях", "",
               "| Запуск | " + " | ".join(FIELDS) + " |", "|---|" + "---|" * len(FIELDS)]
@@ -136,6 +141,9 @@ def cmd_check(cfg) -> None:
     docs = load_docs(cfg, "all")
     print(f"ok: {len(golden)} golden labels valid, {len(docs)} texts, "
           f"{sum(d['split'] == 'golden' for d in docs)} marked golden in manifest")
+    # calibration: golden values come from the text, so the grounding check must find all of them
+    g = summarize_grounding([{"doc_id": k, "output": v} for k, v in golden.items()], {d["doc_id"]: d["text"] for d in docs})
+    print(f"grounding check on golden: {g['ungrounded']}/{g['values_checked']} values not found in text")
 
 
 def cmd_grid(cfg) -> None:

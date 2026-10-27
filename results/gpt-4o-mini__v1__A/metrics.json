@@ -49,6 +49,53 @@
   "cost_per_1000_docs_usd": 0.772,
   "tokens_in": 198581,
   "tokens_out": 27527,
+  "grounding": {
+    "values_checked": 962,
+    "ungrounded": 7,
+    "ungrounded_pct": 0.7,
+    "ungrounded_by_field": {
+      "skills": 4,
+      "city": 2,
+      "title": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f04",
+        "field": "title",
+        "value": "Рaзpaбoтчик программного обеспечения, web-пpoгraммiст"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "навгація"
+      },
+      {
+        "doc_id": "f26",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f35",
+        "field": "city",
+        "value": "Грузія"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "negotiation"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "broker verification"
+      },
+      {
+        "doc_id": "f36",
+        "field": "skills",
+        "value": "допомога відвідувачам"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4o-mini",
     "model_id": "gpt-4o-mini",

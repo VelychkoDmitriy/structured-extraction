@@ -49,6 +49,47 @@
   "cost_per_1000_docs_usd": 2.314,
   "tokens_in": 248981,
   "tokens_out": 24514,
+  "grounding": {
+    "values_checked": 966,
+    "ungrounded": 6,
+    "ungrounded_pct": 0.6,
+    "ungrounded_by_field": {
+      "skills": 3,
+      "educations": 3
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "проектування баз даних"
+      },
+      {
+        "doc_id": "p04",
+        "field": "educations.institution",
+        "value": "Дніпропетровський національний університет"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "валидація форм"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "вирішення конфліктів"
+      },
+      {
+        "doc_id": "p14",
+        "field": "educations.faculty",
+        "value": "Менеджмент (спеціалізація \u00171Менеджмент туризму\u00187)"
+      },
+      {
+        "doc_id": "p14",
+        "field": "educations.faculty",
+        "value": "Менеджмент (спеціалізація \u00171Менеджмент туризму\u00187)"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4.1-mini",
     "model_id": "gpt-4.1-mini",

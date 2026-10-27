@@ -49,6 +49,297 @@
   "cost_per_1000_docs_usd": 0.0,
   "tokens_in": 99007,
   "tokens_out": 23115,
+  "grounding": {
+    "values_checked": 463,
+    "ungrounded": 55,
+    "ungrounded_pct": 11.9,
+    "ungrounded_by_field": {
+      "skills": 27,
+      "work_location_preference": 9,
+      "work_experiences": 8,
+      "educations": 4,
+      "additional_educations": 3,
+      "city": 2,
+      "desired_salary": 2
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f02",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f02",
+        "field": "additional_educations",
+        "value": "Вчірній навчальний заклад"
+      },
+      {
+        "doc_id": "f02",
+        "field": "additional_educations",
+        "value": "Основи веб-дизайну"
+      },
+      {
+        "doc_id": "f02",
+        "field": "work_experiences.city",
+        "value": "Львів"
+      },
+      {
+        "doc_id": "f02",
+        "field": "work_experiences.company",
+        "value": "Прифінанський підприємства"
+      },
+      {
+        "doc_id": "f02",
+        "field": "work_experiences.city",
+        "value": "Харків"
+      },
+      {
+        "doc_id": "f02",
+        "field": "work_experiences.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f02",
+        "field": "educations.faculty",
+        "value": "Середня освіта"
+      },
+      {
+        "doc_id": "f05",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "API интеграція"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "Bash (bash scripting)"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "Git (Git operations)"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "HTML"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "CSS"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "React"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "Node.js"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "Git"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "Shell scripting"
+      },
+      {
+        "doc_id": "f07",
+        "field": "work_experiences.position",
+        "value": "Frontend программіст"
+      },
+      {
+        "doc_id": "f10",
+        "field": "city",
+        "value": "м. Київ"
+      },
+      {
+        "doc_id": "f10",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f10",
+        "field": "work_experiences.city",
+        "value": "м. Київ"
+      },
+      {
+        "doc_id": "f10",
+        "field": "educations.city",
+        "value": "м. Київ"
+      },
+      {
+        "doc_id": "f17",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f20",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f20",
+        "field": "desired_salary",
+        "value": "10000"
+      },
+      {
+        "doc_id": "p02",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "p09",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "загальні бухгалтерські робітні"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "управління бухгалтерськими робітами"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "програми підготовки та складання діяльності"
+      },
+      {
+        "doc_id": "f21",
+        "field": "work_experiences.company",
+        "value": "Незазвізаний"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f31",
+        "field": "desired_salary",
+        "value": "30000"
+      },
+      {
+        "doc_id": "f35",
+        "field": "city",
+        "value": "Грузинська"
+      },
+      {
+        "doc_id": "f35",
+        "field": "additional_educations",
+        "value": "Курси та навчання Dispatch42 School"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "управляємою Dispatch42 School"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "займуюсь підписками"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "займуюсь об'єктом підписання"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з TMS"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з HOS правилами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з ELD системами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з FMCSA швидкодіїнівними перевезіннями"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з брокерами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з фразами для комунікації з брокерами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з процесом з підпискою"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з фразами для комунікації з брокерами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з TMS"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з HOS правилами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з ELD системами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомлюсь з FMCSA швидкодіїнівними перевезіннями"
+      },
+      {
+        "doc_id": "f35",
+        "field": "work_experiences.city",
+        "value": "Грузинська"
+      },
+      {
+        "doc_id": "f35",
+        "field": "educations.faculty",
+        "value": "Курси та навчання"
+      },
+      {
+        "doc_id": "f35",
+        "field": "educations.city",
+        "value": "Грузинська"
+      },
+      {
+        "doc_id": "p15",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      }
+    ]
+  },
   "run": {
     "model": "qwen-local",
     "model_id": "qwen2.5-3b-8k",

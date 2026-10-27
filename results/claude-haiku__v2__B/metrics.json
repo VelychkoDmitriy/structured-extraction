@@ -49,6 +49,51 @@
   "cost_per_1000_docs_usd": 1.32,
   "tokens_in": 417840,
   "tokens_out": 74865,
+  "grounding": {
+    "values_checked": 947,
+    "ungrounded": 7,
+    "ungrounded_pct": 0.7,
+    "ungrounded_by_field": {
+      "skills": 7
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "написання промтів"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "PPC"
+      },
+      {
+        "doc_id": "f20",
+        "field": "skills",
+        "value": "Работа с программами, используемыми на АЗС"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "verification of brokers through factoring companies"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "negotiation with brokers"
+      },
+      {
+        "doc_id": "p17",
+        "field": "skills",
+        "value": "активне та уважне слухання"
+      },
+      {
+        "doc_id": "p17",
+        "field": "skills",
+        "value": "планування робочого дня"
+      }
+    ]
+  },
   "run": {
     "model": "claude-haiku",
     "model_id": "anthropic/claude-haiku-5.5",

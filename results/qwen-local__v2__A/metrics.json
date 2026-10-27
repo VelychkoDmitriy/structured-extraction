@@ -49,6 +49,262 @@
   "cost_per_1000_docs_usd": 0.0,
   "tokens_in": 76520,
   "tokens_out": 20474,
+  "grounding": {
+    "values_checked": 538,
+    "ungrounded": 48,
+    "ungrounded_pct": 8.9,
+    "ungrounded_by_field": {
+      "work_experiences": 15,
+      "work_location_preference": 11,
+      "skills": 8,
+      "educations": 6,
+      "city": 4,
+      "desired_salary": 3,
+      "additional_educations": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f02",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f02",
+        "field": "educations.faculty",
+        "value": "незакінчена вища"
+      },
+      {
+        "doc_id": "f05",
+        "field": "city",
+        "value": "м. Київ"
+      },
+      {
+        "doc_id": "f05",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f05",
+        "field": "work_experiences.city",
+        "value": "м. Київ"
+      },
+      {
+        "doc_id": "f10",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f10",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f10",
+        "field": "work_experiences.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f10",
+        "field": "educations.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f17",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f20",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f20",
+        "field": "desired_salary",
+        "value": "3000"
+      },
+      {
+        "doc_id": "p02",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "p09",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f22",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f25",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f25",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f25",
+        "field": "desired_salary",
+        "value": "5000"
+      },
+      {
+        "doc_id": "f25",
+        "field": "work_experiences.company",
+        "value": "Open Source Technologies"
+      },
+      {
+        "doc_id": "f25",
+        "field": "work_experiences.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f25",
+        "field": "educations.institution",
+        "value": "Київський національний університет імені Тараса Шевченка"
+      },
+      {
+        "doc_id": "f25",
+        "field": "educations.faculty",
+        "value": "Кафедра комп'ютерних наук та інформаційних технологій"
+      },
+      {
+        "doc_id": "f25",
+        "field": "educations.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      },
+      {
+        "doc_id": "f31",
+        "field": "skills",
+        "value": "Тренування з шахів"
+      },
+      {
+        "doc_id": "f31",
+        "field": "desired_salary",
+        "value": "5000"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.company",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.city",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.company",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.city",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.company",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.city",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.company",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f31",
+        "field": "work_experiences.city",
+        "value": "УкрПродавець"
+      },
+      {
+        "doc_id": "f33",
+        "field": "skills",
+        "value": "модельування"
+      },
+      {
+        "doc_id": "f33",
+        "field": "skills",
+        "value": "текстурування"
+      },
+      {
+        "doc_id": "f33",
+        "field": "skills",
+        "value": "рендеринг"
+      },
+      {
+        "doc_id": "f33",
+        "field": "skills",
+        "value": "stylізований атаман"
+      },
+      {
+        "doc_id": "f33",
+        "field": "skills",
+        "value": "реалістичний моделювання"
+      },
+      {
+        "doc_id": "f33",
+        "field": "work_experiences.company",
+        "value": "not specified"
+      },
+      {
+        "doc_id": "f33",
+        "field": "work_experiences.city",
+        "value": "not specified"
+      },
+      {
+        "doc_id": "f35",
+        "field": "city",
+        "value": "Грузия"
+      },
+      {
+        "doc_id": "f35",
+        "field": "additional_educations",
+        "value": "Учусь структуризації логістичного бізнесу в США, вивчаю фрази для комунікації з брокерами, розумію процес від забуття до доставки, працюю з Rate Confirmation, BOL, POD, Carrier Packet, W9, COI, розумію, як працює TMS (Transportation Management System), та вивчаю правила HOS, ELD системи та FMCSA перевірки керівників."
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "ELD системи"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "FMCSA перевірки керівників"
+      },
+      {
+        "doc_id": "f35",
+        "field": "work_experiences.city",
+        "value": "Грузия"
+      },
+      {
+        "doc_id": "f35",
+        "field": "educations.city",
+        "value": "Грузия"
+      },
+      {
+        "doc_id": "p15",
+        "field": "work_location_preference",
+        "value": "Дистанційно"
+      }
+    ]
+  },
   "run": {
     "model": "qwen-local",
     "model_id": "qwen2.5-3b-8k",

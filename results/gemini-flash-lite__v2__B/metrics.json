@@ -49,6 +49,128 @@
   "cost_per_1000_docs_usd": 2.004,
   "tokens_in": 277739,
   "tokens_out": 33875,
+  "grounding": {
+    "values_checked": 1044,
+    "ungrounded": 22,
+    "ungrounded_pct": 2.1,
+    "ungrounded_by_field": {
+      "skills": 20,
+      "city": 1,
+      "work_location_preference": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "оптимізація процесів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "промт-інжиніринг"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "PPC"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "пошукові кампанії"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "відео кампанії"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "реклама в соцмережах"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "створення сайтів"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "оптимізація сайтів"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "просування сайтів"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "блогінг"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "журналістика"
+      },
+      {
+        "doc_id": "f26",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f26",
+        "field": "work_location_preference",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "організація"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота з колективом"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "діловодство"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота в силових структурах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на оргтехніці"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "комп'ютер"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "адаптивність"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "стресостійкість"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "вміння слухати"
+      }
+    ]
+  },
   "run": {
     "model": "gemini-flash-lite",
     "model_id": "google/gemini-3.1-flash-lite",

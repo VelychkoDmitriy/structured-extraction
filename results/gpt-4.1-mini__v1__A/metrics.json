@@ -49,6 +49,117 @@
   "cost_per_1000_docs_usd": 2.052,
   "tokens_in": 198581,
   "tokens_out": 27288,
+  "grounding": {
+    "values_checked": 1144,
+    "ungrounded": 20,
+    "ungrounded_pct": 1.7,
+    "ungrounded_by_field": {
+      "skills": 19,
+      "work_experiences": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f01",
+        "field": "skills",
+        "value": "знание бухгалтерских программ (1С 7.7, 1С 8, ВАF, Битрикс, клиент банк, интернет банкинг)"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "вирішення касових розривів"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "аналіз прибутку"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "досягнення поставлених цілей"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "організація і оптимізація процесів"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "проектування та розробка баз даних"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "підключення шаблонів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "гнучкість у використанні"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "створення стильного контенту у соцмережах"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "виділення серед конкурентів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "формування впізнаваного стилю"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "підсилення меседжу"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "перетворення глядачів у клієнтів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "створення вражаючого візуального контенту"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "підлаштування промтів для унікального стилю"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "забезпечення якості і швидкості реалізації"
+      },
+      {
+        "doc_id": "f17",
+        "field": "work_experiences.position",
+        "value": "працівник будівництва"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "линеве завантаження контенту"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "вирішення конфліктів при злиттях"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "сотрудничество в некоммерческих международных организациях"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4.1-mini",
     "model_id": "gpt-4.1-mini",

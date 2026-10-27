@@ -49,6 +49,163 @@
   "cost_per_1000_docs_usd": 1.852,
   "tokens_in": 227279,
   "tokens_out": 36205,
+  "grounding": {
+    "values_checked": 1055,
+    "ungrounded": 29,
+    "ungrounded_pct": 2.7,
+    "ungrounded_by_field": {
+      "skills": 27,
+      "work_experiences": 1,
+      "city": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "фінансовий аналіз"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "керівництво"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "оптимізація процесів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "створення контенту для соцмереж"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "PPC"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Пошукові кампанії"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Відео кампанії"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Реклама в соцмережах"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Оптимізація сайтів"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Контент-менеджмент"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Блогінг"
+      },
+      {
+        "doc_id": "f15",
+        "field": "skills",
+        "value": "Журналістика"
+      },
+      {
+        "doc_id": "f18",
+        "field": "work_experiences.city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f26",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота в інфоструктурі"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на оргтехніці"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на комп'ютері"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на планшеті"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на принтері"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота з гаджетами"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота на виробництві"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота з колективом"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "діловодство"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "робота в силових структурах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "участь у соціально-освітніх проектах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "співпраця в некомерційних міжнародних організаціях"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "створення проекту спільного бізнесу"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "Broker verification"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "Negotiation"
+      }
+    ]
+  },
   "run": {
     "model": "gemini-flash-lite",
     "model_id": "google/gemini-3.1-flash-lite",

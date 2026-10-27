@@ -49,6 +49,87 @@
   "cost_per_1000_docs_usd": 0.768,
   "tokens_in": 198581,
   "tokens_out": 27150,
+  "grounding": {
+    "values_checked": 934,
+    "ungrounded": 14,
+    "ungrounded_pct": 1.5,
+    "ungrounded_by_field": {
+      "skills": 12,
+      "city": 2
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "Організація процесів"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "Оптимізація процесів"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "підвищення рівня продуктивності"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "дослідження нових інструментів та технологій"
+      },
+      {
+        "doc_id": "f26",
+        "field": "city",
+        "value": "Київ"
+      },
+      {
+        "doc_id": "f35",
+        "field": "city",
+        "value": "Грузія"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "диспетчерування"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "переговори з брокерами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "заповнення підтверджень ставок"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "аналітика DAT"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знайомство з TMS"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "знання правил HOS"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "робота з ELD системами"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "перевірка водіїв FMCSA"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4o-mini",
     "model_id": "gpt-4o-mini",

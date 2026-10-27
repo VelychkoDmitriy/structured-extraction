@@ -49,6 +49,123 @@
   "cost_per_1000_docs_usd": 1.233,
   "tokens_in": 354420,
   "tokens_out": 77088,
+  "grounding": {
+    "values_checked": 1062,
+    "ungrounded": 21,
+    "ungrounded_pct": 2.0,
+    "ungrounded_by_field": {
+      "skills": 19,
+      "title": 1,
+      "additional_educations": 1
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "організація та оптимізація процесів"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "керівництво командою"
+      },
+      {
+        "doc_id": "f04",
+        "field": "title",
+        "value": "Разработчик программного обеспечения, web-программист"
+      },
+      {
+        "doc_id": "f04",
+        "field": "skills",
+        "value": "граберы"
+      },
+      {
+        "doc_id": "f06",
+        "field": "skills",
+        "value": "графічний дизайн"
+      },
+      {
+        "doc_id": "f06",
+        "field": "skills",
+        "value": "анімація"
+      },
+      {
+        "doc_id": "f23",
+        "field": "skills",
+        "value": "легко навчається"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "вирішення конфліктів при злиттях"
+      },
+      {
+        "doc_id": "f28",
+        "field": "additional_educations",
+        "value": "приватне навчання роботи на оргтехніці, комп'ютері, планшеті, принтері, гаджетах"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "сотрудничество в некоммерческих международных организациях"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "market conditions analysis"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "вміння організовувати свій час"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "ставлення до колег з повагою"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "готовність допомогти та підтримати"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "обдумані дії"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "вміння слухати"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "пошук виходу в складних обставинах"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "відкритість до нового досвіду"
+      },
+      {
+        "doc_id": "f37",
+        "field": "skills",
+        "value": "прагнення до професійного розвитку"
+      },
+      {
+        "doc_id": "f40",
+        "field": "skills",
+        "value": "прагнення до професійного зростання і самовдосконалення"
+      },
+      {
+        "doc_id": "f40",
+        "field": "skills",
+        "value": "готовність навчатися"
+      }
+    ]
+  },
   "run": {
     "model": "claude-haiku",
     "model_id": "anthropic/claude-haiku-5.5",

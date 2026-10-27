@@ -49,6 +49,157 @@
   "cost_per_1000_docs_usd": 2.05,
   "tokens_in": 198581,
   "tokens_out": 27213,
+  "grounding": {
+    "values_checked": 1121,
+    "ungrounded": 28,
+    "ungrounded_pct": 2.5,
+    "ungrounded_by_field": {
+      "skills": 26,
+      "work_experiences": 2
+    },
+    "ungrounded_examples": [
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "вирішення касових розривів"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "аналіз прибутку"
+      },
+      {
+        "doc_id": "f03",
+        "field": "skills",
+        "value": "організація і оптимізація процесів"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "проектування та розробка баз даних"
+      },
+      {
+        "doc_id": "f07",
+        "field": "skills",
+        "value": "настройка роботи зі статичними та медіафайлами"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "гнучкість використання"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "створення стильного контенту у соцмережах"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "виділення серед конкурентів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "формування впізнаваного стилю"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "привертання уваги"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "підсилення меседжу"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "перетворення глядачів у клієнтів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "створення вражаючого візуального контенту"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "підлаштування промтів"
+      },
+      {
+        "doc_id": "f13",
+        "field": "skills",
+        "value": "забезпечення якості і швидкості реалізації"
+      },
+      {
+        "doc_id": "f17",
+        "field": "work_experiences.position",
+        "value": "працівник поліції охорони"
+      },
+      {
+        "doc_id": "f17",
+        "field": "work_experiences.position",
+        "value": "працівник будівництва"
+      },
+      {
+        "doc_id": "f21",
+        "field": "skills",
+        "value": "готовність вивчати нові інструменти та технології"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "линеве завантаження контенту"
+      },
+      {
+        "doc_id": "f24",
+        "field": "skills",
+        "value": "вирішення конфліктів при злиттях"
+      },
+      {
+        "doc_id": "f28",
+        "field": "skills",
+        "value": "сотрудничество в некоммерческих международных организациях"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "working with DAT load board"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "filling out rate confirmations (RC)"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "verifying brokers through factoring companies"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "negotiation with brokers"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "knowledge of Rate Confirmation, BOL, POD, Carrier Packet, W9, COI"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "understanding TMS (Transportation Management System)"
+      },
+      {
+        "doc_id": "f35",
+        "field": "skills",
+        "value": "familiarity with HOS rules, ELD systems, and FMCSA driver checks"
+      }
+    ]
+  },
   "run": {
     "model": "gpt-4.1-mini",
     "model_id": "gpt-4.1-mini",
