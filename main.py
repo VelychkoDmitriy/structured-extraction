@@ -11,6 +11,7 @@ import csv
 import json
 import os
 import sys
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -39,6 +40,15 @@ def load_docs(cfg: dict, split: str) -> list[dict]:
     for r in rows:
         r["text"] = (data / "texts" / f"{r['doc_id']}.txt").read_text(encoding="utf-8")
     return rows
+
+
+def server_up(base_url: str) -> bool:
+    """Is a local OpenAI-compatible server (Ollama) answering at base_url?"""
+    try:
+        urllib.request.urlopen(base_url.rstrip("/") + "/models", timeout=3)
+        return True
+    except OSError:
+        return False
 
 
 def load_golden(cfg: dict) -> dict[str, dict]:
@@ -73,7 +83,8 @@ def cmd_run(cfg, model, prompt, sampling, split="all", limit=None, force=False) 
                 "sampling": sampling, "temperature": params["temperature"], "top_p": params["top_p"],
                 "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds"), **rec}
 
-    with ThreadPoolExecutor(cfg.get("workers", 4)) as pool, out_file.open("a", encoding="utf-8") as fh:
+    workers = cfg["models"][model].get("workers", cfg.get("workers", 4))  # local model: 1, else latency includes queueing
+    with ThreadPoolExecutor(workers) as pool, out_file.open("a", encoding="utf-8") as fh:
         for i, rec in enumerate(pool.map(work, docs), 1):
             fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
             fh.flush()
@@ -130,13 +141,16 @@ def cmd_check(cfg) -> None:
 def cmd_grid(cfg) -> None:
     grid = cfg["grid"]
     for model in grid["models"]:
-        key_env = cfg["models"][model]["api_key_env"]
-        if not os.environ.get(key_env):
-            print(f"skip {model}: {key_env} is not set in .env")
+        mcfg = cfg["models"][model]
+        if "api_key_env" in mcfg and not os.environ.get(mcfg["api_key_env"]):
+            print(f"skip {model}: {mcfg['api_key_env']} is not set in .env")
             continue
-        for prompt in grid["prompts"]:
+        if "api_key_env" not in mcfg and not server_up(mcfg["base_url"]):
+            print(f"skip {model}: local server {mcfg['base_url']} is not running (see README)")
+            continue
+        for prompt in mcfg.get("grid_prompts", grid["prompts"]):
             for sampling in grid["sampling"]:
-                cmd_run(cfg, model, prompt, sampling)
+                cmd_run(cfg, model, prompt, sampling, split=mcfg.get("grid_split", "all"))
     cmd_report(cfg)
 
 

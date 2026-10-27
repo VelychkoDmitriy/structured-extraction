@@ -19,6 +19,17 @@ models:
     max_retries: 3
     price_per_1m: {input: 0.40, output: 1.60}    # USD, openai.com/api/pricing
 
+  qwen-local:
+    model: qwen2.5-3b-8k                  # qwen2.5:3b + num_ctx 8192, see ollama/Modelfile
+    base_url: http://localhost:11434/v1   # Ollama, OpenAI-compatible endpoint, no API key
+    structured: json_schema               # Ollama turns the schema into a grammar
+    timeout_s: 300
+    max_retries: 1
+    price_per_1m: {input: 0, output: 0}   # runs on the laptop: no API cost
+    workers: 1                            # Ollama answers one request at a time; parallel calls would only add queue time to latency
+    grid_prompts: [v2]                    # v1 vs v2 is already compared on the API models
+    grid_split: golden                  # ~40 s per resume on a GTX 1650 Ti: the grid runs it on golden only
+
   claude-haiku:
     model: anthropic/claude-haiku-5.5    # via OpenRouter (OpenAI-compatible endpoint)
     api_key_env: OPENROUTER_API_KEY
@@ -42,6 +53,6 @@ sampling:
   B: {temperature: 0.7, top_p: 0.9}   # varied
 
 grid:                 # what `python main.py` runs
-  models: [gpt-4.1-mini, claude-haiku]   # gpt-4o-mini, gemini-flash-lite: extra runs, kept in results/
+  models: [gpt-4.1-mini, claude-haiku, qwen-local]   # gpt-4o-mini, gemini-flash-lite: extra runs, kept in results/
   prompts: [v1, v2]
   sampling: [A, B]

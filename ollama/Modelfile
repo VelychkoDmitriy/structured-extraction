@@ -1,0 +1,6 @@
+# Local model for the comparison: qwen2.5:3b with an 8k context window.
+# The prompt with schema and rules is ~6.7k tokens; Ollama's default context would cut it.
+#   ollama pull qwen2.5:3b
+#   ollama create qwen2.5-3b-8k -f ollama/Modelfile
+FROM qwen2.5:3b
+PARAMETER num_ctx 8192

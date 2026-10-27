@@ -1,4 +1,4 @@
-"""One interface for every model: OpenAI and any OpenAI-compatible API (MiniMax, Ollama, OpenRouter)."""
+"""One interface for every model: OpenAI and any OpenAI-compatible API (OpenRouter, local Ollama)."""
 import os
 import time
 from dataclasses import dataclass
@@ -34,7 +34,7 @@ class LLMClient:
         self.price_in = cfg["price_per_1m"]["input"]
         self.price_out = cfg["price_per_1m"]["output"]
         self.client = OpenAI(
-            api_key=os.environ[cfg["api_key_env"]],
+            api_key=os.environ[cfg["api_key_env"]] if "api_key_env" in cfg else "local",  # Ollama needs no key
             base_url=cfg.get("base_url"),
             timeout=cfg.get("timeout_s", 60),
             max_retries=0,  # retries are ours, so they are counted and logged
