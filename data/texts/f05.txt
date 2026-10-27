@@ -1,0 +1,24 @@
+Magento 2 developer
+
+Magento DeveloperMagento Developer  
+частный предприниматель  
+дек. 2023 г. - настоящее время  
+  
+EXPERIENCE:  
+. Development and support of stores based on Magento2  
+. Magento customization aspects  
+. Magento extensions  
+. Code development  
+. Magento modules integration  
+. Creating a module  
+  
+SKILLS: PHP, JavaScript, HTML, CSS  
+  
+ENVIROMENT AND TOOLS: linux, apache, IDE PHP Storm, Docker  
+  
+DATABASES: MySQL , MariaDB  
+  
+LANGUAGES:  
+Ukrainian: native  
+Russian: native  
+English: Pre.Intermediate

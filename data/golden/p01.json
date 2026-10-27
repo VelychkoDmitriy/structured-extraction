@@ -1,0 +1,101 @@
+{
+  "title": "Програміст Delphi",
+  "age": 43,
+  "city": "Дунаївці",
+  "desired_salary": 42000,
+  "employment_type": [
+    "повна",
+    "неповна"
+  ],
+  "work_location_preference": [
+    "Дистанційно"
+  ],
+  "driver_license": null,
+  "work_experiences": [
+    {
+      "position": "Програміст Delphi",
+      "company": "vCloud Group Australia",
+      "city": "Дунаївці",
+      "start_date": "2023-09",
+      "end_date": "2024-08",
+      "is_current": false,
+      "responsibilities": "Исправление ошибок\nПрограмма загрузки выгрузке данных с сервера через SFTP. Использовал потоки для асинхронной работы\nЧат на FMX для Windows и Android\nСкрин выделенного участка экрана для нескольких мониторов\nРабота с Mysql\n<https://vcloudgroup.net/>"
+    },
+    {
+      "position": "Програміст Delphi",
+      "company": "Unident",
+      "city": "Гуляйполе",
+      "start_date": "2021-01",
+      "end_date": "2023-05",
+      "is_current": false,
+      "responsibilities": "Рефакторинг, отладка и улучшение функциональности программы\nПроект включает в себя: программы, связанные с базами данных, со статистикой, диаграммами и отчетами, а также функциями информационной панели\nРаботал с потоками, generics и RTTI\nСоздавал динамический фильтр sql для поиска в таблицах (FireBird)\nПоказывал прогресс загрузки дынных с БД, разбивка на страницы\nРаботал с отчетами с помощью Fastreport\nЭкспорт данных в файлы pdf, xml, html, excel, csv\n<https://unident.no/nextsys>"
+    },
+    {
+      "position": "Програміст Delphi",
+      "company": "MDSync LLC",
+      "city": "Гуляйполе",
+      "start_date": "2010-08",
+      "end_date": "2020-12",
+      "is_current": false,
+      "responsibilities": "Разработка и сопровождение системы EMP\nРазработка и сопровождение Бухгалтерии\nЗагрузка, выгрузка данных формат xml, json в базу данных MSSQL\nSQL, Stored Procedures\nРабота с протоколами ftps, sftp, https\nАвтоматическое обновление программного обеспечения\nСоздание отчетов с помощью Rave report, Quick report\nРабота с диаграммами: TChart, FastCube\nРабота с потоками\nРабота с API (front.end)"
+    },
+    {
+      "position": "Програміст Delphi, С.",
+      "company": "IT.DIMENSION",
+      "city": "Запоріжжя",
+      "start_date": "2008-06",
+      "end_date": "2010-08",
+      "is_current": false,
+      "responsibilities": "Запись с микрофона, синхронизация набора текста со звуком. Воспроизведение звука и печатного текста (для судов)\nДиспетчер задач для платформы Windows, например wrike.com\nПрограмма для отправки.получения электронной почты типа The Bat"
+    },
+    {
+      "position": "Програміст Delphi",
+      "company": "Мотор Сич",
+      "city": "АО",
+      "start_date": "2007-05",
+      "end_date": "2008-06",
+      "is_current": false,
+      "responsibilities": "Разработка системы ЕМР. Загрузка XML.данных в базу данных Oracle\nВыборка данных, сводные таблицы"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Запорізька Політехніка",
+      "faculty": "Програмне забезпечення автоматизованих систем",
+      "city": "Запоріжжя",
+      "level": "незакінчена вища",
+      "start_year": 2003,
+      "end_year": 2008
+    }
+  ],
+  "additional_educations": [],
+  "languages": [
+    {
+      "language": "українська",
+      "level": "вільно"
+    },
+    {
+      "language": "російська",
+      "level": "вільно"
+    }
+  ],
+  "skills": [
+    "Доброзичливість",
+    "Робота з базою даних",
+    "SQLite",
+    "Firebase",
+    "Room Library",
+    "Coroutines",
+    "Retrofit",
+    "MVVM",
+    "Clean Architecture",
+    "Відповідальність",
+    "Flow",
+    "Jetpack Compose",
+    "Hilt"
+  ],
+  "missing_fields": [
+    "driver_license",
+    "additional_educations"
+  ]
+}

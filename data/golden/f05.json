@@ -1,0 +1,58 @@
+{
+  "title": "Magento 2 developer",
+  "age": null,
+  "city": null,
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": null,
+  "work_experiences": [
+    {
+      "position": "Magento Developer",
+      "company": "частный предприниматель",
+      "city": null,
+      "start_date": "2023-12",
+      "end_date": null,
+      "is_current": true,
+      "responsibilities": "Development and support of stores based on Magento2; Magento customization aspects; Magento extensions; Code development; Magento modules integration; Creating a module"
+    }
+  ],
+  "educations": [],
+  "additional_educations": [],
+  "languages": [
+    {
+      "language": "українська",
+      "level": "рідна"
+    },
+    {
+      "language": "російська",
+      "level": "рідна"
+    },
+    {
+      "language": "англійська",
+      "level": "початковий"
+    }
+  ],
+  "skills": [
+    "PHP",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "linux",
+    "apache",
+    "IDE PHP Storm",
+    "Docker",
+    "MySQL",
+    "MariaDB"
+  ],
+  "missing_fields": [
+    "age",
+    "city",
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "driver_license",
+    "educations",
+    "additional_educations"
+  ]
+}

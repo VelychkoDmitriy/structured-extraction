@@ -1,0 +1,59 @@
+{
+  "title": "Виконроб",
+  "age": 39,
+  "city": "Львів",
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": null,
+  "work_experiences": [
+    {
+      "position": null,
+      "company": "Департамент поліції охорони Львівської області",
+      "city": null,
+      "start_date": "2024-01",
+      "end_date": null,
+      "is_current": true,
+      "responsibilities": null
+    },
+    {
+      "position": "виконроб",
+      "company": "T.L.E. Bortechnik",
+      "city": null,
+      "start_date": "2014-05",
+      "end_date": "2022-10",
+      "is_current": false,
+      "responsibilities": null
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Львівський Національний університет ім. Івана Франка",
+      "faculty": null,
+      "city": null,
+      "level": "unknown",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "additional_educations": [],
+  "languages": [
+    {
+      "language": "англійська",
+      "level": "середній"
+    },
+    {
+      "language": "українська",
+      "level": "рідна"
+    }
+  ],
+  "skills": [],
+  "missing_fields": [
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "driver_license",
+    "additional_educations",
+    "skills"
+  ]
+}

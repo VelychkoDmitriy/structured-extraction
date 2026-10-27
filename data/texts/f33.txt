@@ -1,0 +1,10 @@
+3D-дизайнер
+
+Вік: 19 років.
+Місто проживання: Івано-Франківськ.
+Готовий працювати: Дистанційно, Івано-Франківськ.
+Portfolio: ArtStation - art_dk3d https://example.com/link-6
+PROJECT EXPERIENCE:
+Game Prop: “Sci.Fi Crate” - Full pipeline: modeling, texturing, rendering;
+Stylized Barrel - Stylized asset creation for games;
+Realistic Weapon Model - High Poly → Low Poly → UV → Baking → Texturing.

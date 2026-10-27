@@ -1,0 +1,32 @@
+{
+  "title": "3D-дизайнер",
+  "age": 19,
+  "city": "Івано-Франківськ",
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [
+    "Дистанційно",
+    "Івано-Франківськ"
+  ],
+  "driver_license": null,
+  "work_experiences": [],
+  "educations": [],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "modeling",
+    "texturing",
+    "rendering",
+    "UV",
+    "Baking"
+  ],
+  "missing_fields": [
+    "desired_salary",
+    "employment_type",
+    "driver_license",
+    "work_experiences",
+    "educations",
+    "additional_educations",
+    "languages"
+  ]
+}

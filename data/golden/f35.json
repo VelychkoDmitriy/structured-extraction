@@ -1,0 +1,38 @@
+{
+  "title": "Диспетчер",
+  "age": 24,
+  "city": null,
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [
+    "Дистанційно"
+  ],
+  "driver_license": null,
+  "work_experiences": [],
+  "educations": [],
+  "additional_educations": [
+    "Dispatch42 School"
+  ],
+  "languages": [],
+  "skills": [
+    "DAT load board",
+    "rate confirmations",
+    "DAT analytics",
+    "TMS",
+    "HOS rules",
+    "ELD systems",
+    "FMCSA driver checks",
+    "BOL",
+    "POD",
+    "Carrier Packet"
+  ],
+  "missing_fields": [
+    "city",
+    "desired_salary",
+    "employment_type",
+    "driver_license",
+    "work_experiences",
+    "educations",
+    "languages"
+  ]
+}

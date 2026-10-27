@@ -1,0 +1,14 @@
+.Net-програміст
+
+Junior Backend Web Developer. Actively seeking opportunities in web development (Junior/Trainee Backend Developer). Approximately 8 months of practical experience. Gained experience through courses, teamwork, personal projects, and freelance work. I am a quick learner, highly adaptable to new technologies and challenges, and an effective team player. I am eager to develop my skills further in microservice architecture and cloud technologies.
+
+Qualities: Communication, Problem-solving, Teamwork, Adaptability.
+
+Achievements: Participated in specialized training courses and practical tasks, which allowed me to deepen my knowledge in backend development, particularly in working with Entity Framework Core, configuring API Gateway, and best practices for microservices.
+
+Projects:
+Learning Management System (LMS): Developed a microservices-based Learning Management System (LMS) using ASP.NET Core, Docker, Ocelot API Gateway, and gRPC to manage courses, assignments, and user authentication. Key components: Auth Service - JWT-based authentication and authorization with refresh tokens. Education Service - course and assignment management using CQRS for read/write separation. API Gateway (Ocelot) - request routing and authentication delegation. Technologies: .NET 9.0, Entity Framework Core, Docker Compose, SQL Server, JWT, gRPC, Clean Architecture. Highlights: containerized deployment, independent service scalability, clear separation of business logic and infrastructure.
+
+Mini.Moodle.Microservice.architecture (Apr 2024): I developed backend services for managing courses and user authentication using ASP.NET Core, Entity Framework, SQL, Docker, gRPC, API Gateway, and CQRS, while following best practices to ensure the system’s scalability and security.
+
+TelegramBot: Developed a Telegram bot that automates the process of car insurance issuance. The bot accepts photos of a passport and vehicle registration certificate, extracts data using OCR (Mindee), confirms the information with the user, displays the fixed price ($100), and generates a PDF insurance policy. OpenAI API is used to create dynamic and user-friendly responses. Implemented a message handling pipeline with step-by-step session state management, data validation, custom inline keyboards, and deployed the bot to the cloud (Render) with HTTPS and Webhook support.

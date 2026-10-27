@@ -1,0 +1,41 @@
+.Net developer
+22 000 грн
+
+Вік: 28 років
+Місто проживання: Дніпро
+
+Досвід роботи
+
+Full-Stack .Net Developer
+з 08.2021 по нині (4 роки)
+Aspose
+Aspose.PDF provides cross-platform libraries for working with PDF documents, including conversion, merging, splitting, and content manipulation. I develop and maintain web applications that allow users to perform various PDF operations using the Aspose.PDF library. Projects: Free PDF applications for working with PDF documents. These applications allow users to perform various operations on PDF documents and demonstrate the capabilities of the Aspose.PDF library. For example: https://products.aspose.app/pdf/family/ https://products.aspose.app/pdf/remove-watermark Built web applications using Aspose.AI.PDF to apply AI-driven operations on PDF content, including translation, summarization, paraphrasing, and grammar correction, enabling smarter and more efficient document processing. For example: https://products.aspose.ai/pdf/ https://products.aspose.ai/pdf/translation UI development for Eptimize - a web platform offering tools for SEO analysis, content editing, and website optimization. Developed interfaces that help users audit web pages, detect SEO issues, and apply improvements directly within the platform. https://www.eptimize.app/
+
+Coach
+з 02.2018 по 08.2021 (3 роки 6 місяців)
+Citrus Academy
+educate clients “Citrus” conducting trainings for Citrus employees creating educational/professional structures, preparation of training manuals and robotic devices for customer education Started a robotic course for children and adults
+
+Освіта
+
+Dnipro University of Technology
+Automation and computer-integrated technologies, Дніпро
+Вища, 2018–2019
+
+Dnipro University of Technology
+System engineering, Дніпро
+Вища, 2014–2018
+
+Додаткова освіта та курси
+The educational center Level UP, 2021–2022
+
+Знання мов
+Ukrainian — вільно
+Russian — вільно
+English — середній
+
+Навички
+C#/.Net, Asp.Net, Entity Framework, SQL, PostgreSQL, Kafka, Redis, HTML, CSS(SASS/SCSS), JS, Angular, TypeScript, RestAPI, Postman, Docker, Git, SOLID, Teamwork, Problem-solving, Decision-making, Openness to criticism, Time management
+
+Додаткова інформація
+HOBBY AND INTERESTS: Robotics, Mobile photography, Computer games, 3d printing

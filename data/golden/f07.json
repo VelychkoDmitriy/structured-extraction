@@ -1,0 +1,40 @@
+{
+  "title": "Junior Python Beckend Developer",
+  "age": 36,
+  "city": "Вінниця",
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [
+    "Дистанційно"
+  ],
+  "driver_license": null,
+  "work_experiences": [],
+  "educations": [],
+  "additional_educations": [
+    "logosIT",
+    "LevelUp",
+    "Hillel IT"
+  ],
+  "languages": [],
+  "skills": [
+    "Django",
+    "DRF",
+    "Celery",
+    "PostgreSQL",
+    "SQLite",
+    "SQL",
+    "Redis",
+    "BeautifulSoup",
+    "requests",
+    "Aiogram",
+    "Telebot"
+  ],
+  "missing_fields": [
+    "desired_salary",
+    "employment_type",
+    "driver_license",
+    "work_experiences",
+    "educations",
+    "languages"
+  ]
+}

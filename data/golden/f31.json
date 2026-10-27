@@ -1,0 +1,36 @@
+{
+  "title": "Продавець в супермаркет",
+  "age": null,
+  "city": null,
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [
+    "Київський район"
+  ],
+  "driver_license": true,
+  "work_experiences": [],
+  "educations": [
+    {
+      "institution": "Одеський національний університет імені І. І. Мечнікова",
+      "faculty": "Економіко . правовий факультет",
+      "city": null,
+      "level": "незакінчена вища",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "Відповідальна"
+  ],
+  "missing_fields": [
+    "age",
+    "city",
+    "desired_salary",
+    "employment_type",
+    "work_experiences",
+    "additional_educations",
+    "languages"
+  ]
+}

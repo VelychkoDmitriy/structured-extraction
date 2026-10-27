@@ -1,0 +1,87 @@
+{
+  "title": "Дизайнер",
+  "age": 25,
+  "city": "Хмельницький",
+  "desired_salary": 18000,
+  "employment_type": [
+    "повна"
+  ],
+  "work_location_preference": [
+    "Дистанційно"
+  ],
+  "driver_license": true,
+  "work_experiences": [
+    {
+      "position": "Графічний дизайнер",
+      "company": "Black",
+      "city": "SMM Agency",
+      "start_date": "2025-05",
+      "end_date": "2025-07",
+      "is_current": false,
+      "responsibilities": "Працювала в команді на випробувальному терміні\nСтворювала графічний контент за технічним завданням для Instagram та Facebook агентства\nРозробляла пости, сторіс та банери для сторінки агенції Black Smm та Black Smm Medicine\nПрацювала відповідно до tone of voice бренду та стилістики соцмереж\nПрацювала в Adobe Photoshop, Figma, Adobe Illustrator"
+    },
+    {
+      "position": "Графічний дизайнер",
+      "company": "Фріланс",
+      "city": "Дистанційно",
+      "start_date": "2024-03",
+      "end_date": null,
+      "is_current": null,
+      "responsibilities": "Створюю візуальну айдентику, пакування та контент для соціальних мереж\nРозробляю логотипи, фірмовий стиль, презентації, постери\nСпівпрацюю напряму з клієнтами: від технічного завдання до фінальної передачі файлів\nПрацюю в Adobe Illustrator, Photoshop, Canva, Figma"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Projector  Creative . Tech Online Institute",
+      "faculty": "Graphic design beginning",
+      "city": "Київ",
+      "level": "середня спеціальна",
+      "start_year": 2025,
+      "end_year": 2025
+    },
+    {
+      "institution": "«Південноукраїнський національний педагогічний університет імені К.Д. Ушинського».",
+      "faculty": "Художньо.графічний факультет",
+      "city": "спеціальність образотворче мистецтво",
+      "level": "вища",
+      "start_year": 2017,
+      "end_year": 2021
+    },
+    {
+      "institution": "Художня школа",
+      "faculty": "Образотворче та декоративно.прикладне мистецтво",
+      "city": "Хмельницький",
+      "level": "середня спеціальна",
+      "start_year": 2013,
+      "end_year": 2016
+    }
+  ],
+  "additional_educations": [
+    "Projector - Creative . Tech Online Institute"
+  ],
+  "languages": [
+    {
+      "language": "англійська",
+      "level": "початковий"
+    },
+    {
+      "language": "українська",
+      "level": "вільно"
+    },
+    {
+      "language": "польська",
+      "level": "початковий"
+    }
+  ],
+  "skills": [
+    "Графічний дизайн",
+    "Adobe Photoshop",
+    "Adobe Illustrator",
+    "Розробка дизайну логотипів",
+    "Креативність",
+    "Комунікабельність",
+    "Figma",
+    "2D.графіка"
+  ],
+  "missing_fields": []
+}

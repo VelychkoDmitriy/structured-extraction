@@ -1,0 +1,42 @@
+{
+  "title": "Головний бухгалтер",
+  "age": 65,
+  "city": null,
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": null,
+  "work_experiences": [],
+  "educations": [
+    {
+      "institution": "Тернопільський фінансовий",
+      "faculty": null,
+      "city": null,
+      "level": "вища",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "клієнт.банк",
+    "медок",
+    "bas",
+    "соната",
+    "1.с",
+    "фрізвіт",
+    "word",
+    "excel"
+  ],
+  "missing_fields": [
+    "city",
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "driver_license",
+    "work_experiences",
+    "additional_educations",
+    "languages"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Особистий водій",
+  "age": 54,
+  "city": null,
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": true,
+  "work_experiences": [
+    {
+      "position": "особистий водій керівника",
+      "company": null,
+      "city": null,
+      "start_date": "1993",
+      "end_date": "2014",
+      "is_current": false,
+      "responsibilities": null
+    }
+  ],
+  "educations": [
+    {
+      "institution": null,
+      "faculty": "технік.механік",
+      "city": null,
+      "level": "середня спеціальна",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "пунктуальність",
+    "дипломатичність",
+    "акуратність"
+  ],
+  "missing_fields": [
+    "city",
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "additional_educations",
+    "languages"
+  ]
+}

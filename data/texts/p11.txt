@@ -1,0 +1,37 @@
+Unity developer
+40 000 грн
+
+Вік: 20 років
+Місто проживання: Львів
+
+Досвід роботи
+
+Unity Developer
+з 10.2024 по 07.2025 (9 місяців)
+Nineva Studios, Lviv, Ukraine
+Developed an Idle RPG mobile game, focusing on Integration publisher SDK to game UI elements and their logic, and connected the project to Unity Cloud. Built an inventory and character customization system. Optimized build size using Addressables. Created a dynamic item injection system using Remote Config, allowing new items to be added without requiring users to update the game. Fixed bugs in a dance mobile app (DeerTDance), including issues with authentication, registration, and password reset using Azure PlayFab. Created a Unity package to streamline and accelerate initial project setup. Configured an SMTP server for email communication. Designed and implemented puzzle dungeon mechanics for a PC game (Dungeon Managers). Worked on designing and developing a PC card game for Steam, integrating Steam functionality using Facepunch.Steamworks and implementing card systems.
+
+Unity Developer
+з 11.2023 по 07.2024 (8 місяців)
+Hyper casual game studio, Lviv, Ukraine
+Worked as a game developer creating mobile hyper.casual games from concept to final release. Collaborated with a game designer, using Trello and Git for project management and version control.
+
+Освіта
+
+Lviv Polytechnic National University
+Computer Science (IoT), Lviv
+Вища, 2022
+
+Додаткова освіта та курси
+Learn to make an Awesome Builder.Defender game in Unity!
+The Beginner's Guide to AI . Unity 6 Compatible
+Learn To Create An Online Multiplayer Game In Unity
+
+Знання мов
+English — середній
+
+Навички
+C#, OOP, SOLID, GoF design patterns, DOTween animations, VFX, particles, RayFire, PuppetMaster, Navmesh, Shader Graph, Obi fluid, Obi rope, URP, Zenject (DI), RESTful API (C#), Game pitch writing, Multiplayer integration (Photon), Steamworks.NET, Unity Cloud (Remote Config, CDD, Cloud Save), Supabase (Auth, Database)
+
+Додаткова інформація
+Hobbies: Soccer player, Participating in game jams, Electronics tinkering (microcontrollers, sensors, soldering).

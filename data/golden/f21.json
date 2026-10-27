@@ -1,0 +1,28 @@
+{
+  "title": "Бухгалтер (єдиний), помічник",
+  "age": 58,
+  "city": "Бориспіль",
+  "desired_salary": 30000,
+  "employment_type": [
+    "повна",
+    "неповна"
+  ],
+  "work_location_preference": [
+    "Бориспіль",
+    "Дистанційно"
+  ],
+  "driver_license": null,
+  "work_experiences": [],
+  "educations": [],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [],
+  "missing_fields": [
+    "driver_license",
+    "work_experiences",
+    "educations",
+    "additional_educations",
+    "languages",
+    "skills"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Контролер-касир",
+  "age": null,
+  "city": "Петрівка",
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": null,
+  "work_experiences": [
+    {
+      "position": "Старший оператор (кассир) АЗС",
+      "company": "УКРТАТНАФТА, BVS",
+      "city": null,
+      "start_date": "1999-05",
+      "end_date": "2018-01",
+      "is_current": false,
+      "responsibilities": "Обслуживание покупателей, продажа газо.топливной продукции."
+    },
+    {
+      "position": "Билетный кассир Автостанции",
+      "company": "ПолтаваАвтоТранс",
+      "city": null,
+      "start_date": "2018-02",
+      "end_date": "2018-10",
+      "is_current": false,
+      "responsibilities": null
+    }
+  ],
+  "educations": [
+    {
+      "institution": "СПТУ 29",
+      "faculty": "Продавец.контролер.кассир",
+      "city": "Кременчуг",
+      "level": "середня спеціальна",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "быстрая обучаемость",
+    "Коммуникабельность",
+    "Стрессоустойчива"
+  ],
+  "missing_fields": [
+    "age",
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "driver_license",
+    "additional_educations",
+    "languages"
+  ]
+}

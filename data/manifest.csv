@@ -1,0 +1,61 @@
+﻿doc_id,source_type,resume_id,title,group,length_band,chars,latin_share,has_contacts,experiences,old_doc_id,split,resume_date
+f01,free_text,5883939,"Главный бухгалтер, аудитор, финансовый директор",finance,short,493,0.03,True,0,r01,dev,2025-08-19
+f02,free_text,3145630,Головний бухгалтер,finance,short,533,0.04,False,0,r02,golden,2025-08-20
+f03,free_text,12209701,Фінансовий директор,finance,long,1705,0.02,True,0,r04,dev,2025-08-19
+f04,free_text,1283809,"Рaзpaбoтчик программного обеспечения, web-пpoгpaммиcт",it,long,2159,0.03,False,0,r05,dev,2025-08-15
+f05,free_text,4353090,Magento 2 developer,it,short,537,0.65,False,0,r06,golden,2025-08-01
+f06,free_text,9354915,Webflow Developer,it,medium,989,0.78,False,0,r08,dev,2025-07-30
+f07,free_text,13485307,Junior Python Beckend Developer,it,long,2583,0.12,True,0,r10,golden,2025-08-18
+f08,free_text,14789929,Кур'єр,logistics,short,349,0.0,False,0,r11,dev,2025-08-16
+f09,free_text,14484238,Водій,logistics,short,459,0.0,False,0,r12,dev,2025-08-03
+f10,free_text,3462318,Особистий водій,logistics,medium,622,0.03,False,0,r13,golden,2025-08-14
+f11,free_text,637946,Заведующий складом,logistics,medium,673,0.0,False,0,r14,dev,2025-08-07
+f12,free_text,14294506,Дизайнер,marketing,medium,701,0.0,False,0,r17,dev,2025-08-01
+f13,free_text,10772087,Графічний дизайнер,marketing,long,1616,0.01,False,0,r18,dev,2025-07-18
+f14,free_text,5884163,Менеджер з туризму,other,short,499,0.05,False,0,r19,dev,2025-08-04
+f15,free_text,4021555,"Контекстолог (GoogleAds), PPС-специалист",other,medium,971,0.02,False,0,r21,dev,2025-08-04
+f16,free_text,10914636,Акторка,other,long,1684,0.14,False,0,r23,dev,2025-08-20
+f17,free_text,7008156,Виконроб,other,medium,716,0.06,False,0,,golden,2025-08-18
+f18,free_text,6612527,Продавец-консультант,sales,short,278,0.0,False,0,r25,dev,2025-08-05
+f19,free_text,9617620,Менеджер з продажу,sales,short,563,0.0,False,0,r26,dev,2025-08-20
+f20,free_text,6900399,Контролер-касир,sales,medium,803,0.02,False,0,r30,golden,2025-08-05
+p01,full_profile,9977069,Програміст Delphi,it,long,2855,0.22,False,5,,golden,2025-08-18
+p02,full_profile,14406391,.Net developer,it,long,2265,0.72,False,2,,golden,2025-08-19
+p03,full_profile,3529387,Менеджер з продажу,sales,long,2385,0.02,False,5,,dev,2025-08-18
+p04,full_profile,12262798,Менеджер з продажу,sales,long,3068,0.01,False,5,,dev,2025-08-18
+p05,full_profile,7704028,Економіст,finance,long,2755,0.01,False,3,,dev,2025-08-04
+p06,full_profile,14654740,Фінансовий аналітик,finance,long,3490,0.02,False,3,,golden,2025-07-31
+p07,full_profile,14663521,"Менеджер з закупівель, логістики",logistics,long,3491,0.0,False,4,,dev,2025-08-05
+p08,full_profile,10645849,SMM-менеджер,marketing,long,1813,0.14,False,3,,dev,2025-08-04
+p09,full_profile,8888572,Юрисконсульт,other,long,2629,0.01,False,2,,golden,2025-08-17
+p10,full_profile,3221668,Юрист,other,long,2337,0.04,False,3,,dev,2025-08-01
+f21,free_text,5760209,"Бухгалтер (єдиний), помічник",finance,medium,1366,0.0,True,0,,golden,2025-08-18
+f22,free_text,6907966,Бухгалтер,finance,medium,648,0.05,False,0,,golden,2025-08-06
+f23,free_text,13517755,Web developer,it,short,378,0.0,False,0,,dev,2025-08-13
+f24,free_text,14671021,Frontend developer,it,medium,962,0.11,False,0,,dev,2025-08-04
+f25,free_text,13960783,.Net-програміст,it,long,2367,0.82,True,0,,golden,2025-08-11
+f26,free_text,14302102,"Вантажник, електрослюсар",logistics,short,597,0.0,False,0,,dev,2025-08-19
+f27,free_text,5443053,Експедитор,logistics,short,298,0.0,False,0,,dev,2025-08-16
+f28,free_text,3714046,"Сторож (склад, приватна охорона)",logistics,short,498,0.0,False,0,,dev,2025-08-06
+f29,free_text,14827765,Контент-менеджер (SMM),marketing,short,372,0.02,False,0,,dev,2025-08-04
+f30,free_text,9634549,Контент-менеджер,marketing,medium,649,0.1,True,0,,dev,2025-08-04
+f31,free_text,7986029,Продавець в супермаркет,marketing,short,588,0.0,False,0,,golden,2025-08-06
+f32,free_text,14861284,SMM specialist,marketing,medium,1329,0.04,True,0,,dev,2025-08-07
+f33,free_text,14722171,3D-дизайнер,marketing,short,371,0.76,False,0,,golden,2025-08-19
+f34,free_text,13908886,Фотомодель,other,short,478,0.02,True,0,,dev,2025-08-14
+f35,free_text,14108134,Диспетчер,other,medium,1183,0.79,False,0,,golden,2025-08-06
+f36,free_text,14809879,Продавець-консультант,sales,short,504,0.03,True,0,,dev,2025-08-03
+f37,free_text,13771111,Менеджер з продажу,sales,medium,628,0.0,False,0,,dev,2025-08-01
+f38,free_text,2947092,"Психолог, тренер, консультант, коуч",sales,short,365,0.0,False,0,,dev,2025-08-02
+p11,full_profile,14542108,Unity developer,it,long,2094,0.72,False,2,,dev,2025-08-18
+p12,full_profile,14055586,Головний фахівець відділу системного аналізу операцій клієнтів,it,long,1940,0.03,False,3,,dev,2025-08-12
+p13,full_profile,10461584,Менеджер з продажу,sales,long,2710,0.03,False,5,,golden,2025-08-13
+p14,full_profile,14500816,Менеджер з продажу,sales,long,2539,0.02,False,3,,dev,2025-08-04
+p15,full_profile,5720485,Економіст,finance,long,2503,0.02,True,4,,golden,2025-08-19
+p16,full_profile,12809989,Бухгалтер з первинної документації,finance,long,2656,0.01,False,4,,dev,2025-08-04
+p17,full_profile,12279452,Логіст,logistics,long,2759,0.02,False,2,,dev,2025-08-14
+p18,full_profile,13179238,Дизайнер,marketing,long,1941,0.16,True,2,,golden,2025-08-19
+p19,full_profile,6356796,"Ретушер, фотомонтажер (обработка фото, медиафайлов)",other,long,2184,0.07,False,2,,dev,2025-08-13
+p20,full_profile,14821345,Менеджер інтернет-магазину,other,long,3155,0.04,False,5,,golden,2025-08-18
+f39,free_text,14810779,Тестувальник,it,short,534,0.11,True,0,,dev,2025-08-04
+f40,free_text,7948067,Перукар,other,short,330,0.05,False,0,,dev,2025-08-04

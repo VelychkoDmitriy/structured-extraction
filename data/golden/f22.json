@@ -1,0 +1,39 @@
+{
+  "title": "Бухгалтер",
+  "age": 65,
+  "city": "Вінниця",
+  "desired_salary": null,
+  "employment_type": [],
+  "work_location_preference": [],
+  "driver_license": null,
+  "work_experiences": [
+    {
+      "position": "бухгалтер",
+      "company": "кафе",
+      "city": null,
+      "start_date": null,
+      "end_date": null,
+      "is_current": null,
+      "responsibilities": null
+    }
+  ],
+  "educations": [],
+  "additional_educations": [],
+  "languages": [],
+  "skills": [
+    "1С",
+    "МЕДОК",
+    "Клієнт.банк",
+    "ULTRA",
+    "ВUS"
+  ],
+  "missing_fields": [
+    "desired_salary",
+    "employment_type",
+    "work_location_preference",
+    "driver_license",
+    "educations",
+    "additional_educations",
+    "languages"
+  ]
+}
